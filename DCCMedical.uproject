@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{514A2EAF-4C95-BD05-20B2-33AA372B6029}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DCCMedical",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Substance",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4"
+		},
+		{
+			"Name": "LeapMotion",
+			"Enabled": true
+		}
+	]
+}
